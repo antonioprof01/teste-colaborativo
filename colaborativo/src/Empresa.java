@@ -2,7 +2,7 @@ public class Empresa {
     private String Cidade;
     private int Telefone;
     private String Email;
-
+    private Funcionario Gerente;
     public Empresa() {
     }
 
