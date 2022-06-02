@@ -11,7 +11,7 @@ public class Empresa {
         Telefone = telefone;
         Email = email;
     }
-    public void Sacar(Double valor )
+   
     public String getCidade() {
         return Cidade;
     }
