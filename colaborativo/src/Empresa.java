@@ -3,10 +3,12 @@ public class Empresa {
     private int Telefone;
     private String Email;
     private Funcionario Gerente;
+    private Endereco End;
+
     public Empresa() {
     }
 
-    public Empresa(String cidade, int telefone, String email) {
+    public Empresa(String cidade, int telefone, String email, Funcionario Gerente, Endereco End) {
         Cidade = cidade;
         Telefone = telefone;
         Email = email;
@@ -37,7 +39,11 @@ public class Empresa {
     }
     
 
-
+@Override
+public String toString() {
+    // TODO Auto-generated method stub
+    return super.toString();
+}
 
 
 }
