@@ -11,13 +11,7 @@ public class App {
         end.setNumero(548);
         end.setRua("Rua Goianésia");
 
-        Empresa emp = new Empresa();
-        Funcionario fun = new Funcionario("will", "hilp25@gmail.com", 845555, "RH", end);
-
-
-
         
-
         emp.setCidade("Nova Olinda");
         emp.setTelefone(845698754);
         emp.setEmail("hilp25@hotmail.com");
