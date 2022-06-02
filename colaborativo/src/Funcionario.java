@@ -33,6 +33,7 @@ public class Funcionario extends Pessoa{
             "email=" + getEmail() +
             "Telefone=" + getTelefone() +
             " setor='" + getSetor() + "'" +
+            "Endereco: " + this.getEnd().toString() +
             "}";
     }
 
