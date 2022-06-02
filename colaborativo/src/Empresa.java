@@ -57,8 +57,6 @@ public String getCidade() {
             " Cidade='" + getCidade() + "'" +
             ", Telefone='" + getTelefone() + "'" +
             ", Email='" + getEmail() + "'" +
-            ", Gerente='" + getGerente() + "'" +
-            ", End='" + getEnd() + "'" +
             "}";
     }
 

@@ -3,6 +3,8 @@ public class App {
         System.out.println("Aqui sera criado um projeto teste colaborativo\n\n");
 
         Endereco end = new Endereco();
+        Empresa emp = new Empresa();
+        Funcionario fun = new Funcionario("will", "hilp25@gmail.com", 845555, "Santa MAria", end);
 
         end.setCidade("colinas");
         end.setEstado("TO");
