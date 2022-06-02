@@ -7,14 +7,15 @@ public class Empresa {
 
     public Empresa() {
     }
-
-public Empresa(String cidade, int telefone, String email, Funcionario gerente, Endereco end) {
-        Cidade = cidade;
-        Telefone = telefone;
-        Email = email;
-        Gerente = gerente;
-        End = end;
+   
+    public Empresa(String Cidade, int Telefone, String Email, Funcionario Gerente, Endereco End) {
+        this.Cidade = Cidade;
+        this.Telefone = Telefone;
+        this.Email = Email;
+        this.Gerente = Gerente;
+        this.End = End;
     }
+
 
 public String getCidade() {
         return Cidade;
@@ -49,11 +50,18 @@ public String getCidade() {
     }
 
 
-@Override
-public String toString() {
-    // TODO Auto-generated method stub
-    return super.toString();
-}
+
+    @Override
+    public String toString() {
+        return "{" +
+            " Cidade='" + getCidade() + "'" +
+            ", Telefone='" + getTelefone() + "'" +
+            ", Email='" + getEmail() + "'" +
+            ", Gerente='" + getGerente() + "'" +
+            ", End='" + getEnd() + "'" +
+            "}";
+    }
+
 
 
 }
