@@ -29,11 +29,11 @@ public class Funcionario extends Pessoa{
     @Override
     public String toString() {
         return "{" +
-            "nome=" + getNome() +
-            "email=" + getEmail() +
-            "Telefone=" + getTelefone() +
-            " setor='" + getSetor() + "'" +
-            "Endereco: " + this.getEnd().toString() +
+            "\nnome=" + getNome() +
+            "\nemail=" + getEmail() +
+            "\nTelefone=" + getTelefone() +
+            "\nsetor='" + getSetor() + "'" +
+            "\nEndereco: " + this.getEnd().toString() +
             "}";
     }
 
